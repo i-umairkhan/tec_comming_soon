@@ -22,6 +22,7 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     background-image: url("./mobile.png");
+    align-items: center;
   }}
 .icon {
   color: rgb(40, 191, 211);
