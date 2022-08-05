@@ -23,7 +23,11 @@ body {
   body {
     background-image: url("./mobile.png");
     align-items: center;
-  }}
+  }
+  .icons{
+  padding-top:30px;
+  }
+}
 .icon {
   color: rgb(40, 191, 211);
   font-size: 35px;
