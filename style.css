@@ -1,0 +1,79 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("./mobile.png");
+  }
+}
+.icon {
+  color: rgb(40, 191, 211);
+  font-size: 35px;
+  cursor: pointer;
+}
+.icon:hover {
+  font-size: 35px;
+  cursor: pointer;
+}
+.icons {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.8s infinite linear;
+  -o-animation: bounce 0.8s infinite linear;
+  -webkit-animation: bounce 0.8s infinite linear;
+  animation: bounce 0.8s infinite linear;
+}
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.1em; }
+    70% { top: -0.2em; }
+    100% { top: 0; }
+}
